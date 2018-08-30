@@ -1,0 +1,23 @@
+name: AMUeco
+version: 1.0.1
+main: com.ausminersunited.amueco.Main
+depend:
+- Vault
+authors:
+- Towja
+description: A plugin that helps fuel the economy on Australian Miners United servers by giving money for mob kills etc.
+commands:
+  amueco:
+    description: Gives plugin info.
+    permission: amueco.info
+    permission-message: §4You need the §camueco.info§4 permission to run that command!
+    usage: /amueco
+permissions:
+  amueco.info:
+    description: Gives access to the /amueco command
+    default: true
+  amueco.*:
+    description: Gives access to all AMUeco permissions
+    default: op
+    children:
+      amueco.info: true
