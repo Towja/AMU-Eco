@@ -1,0 +1,63 @@
+# Toggle whether the player gets a message every time they kill a mob (Could potentially be annoying)
+# e.g. "You got $2 for killing a cow!"
+send-payment-message: true
+
+# The number next to each mob is the monetary reward the player receives for killing it.
+# Ensure that all entity names remain in upper case.
+mob-rewards:
+  BAT: 1
+  BLAZE: 5
+  CAVE_SPIDER: 2
+  CHICKEN: 1
+  COD: 1
+  COW: 1
+  CREEPER: 2
+  DOLPHIN: 1
+  DONKEY: 1
+  DROWNED: 2
+  ELDER_GUARDIAN: 7
+  ENDER_DRAGON: 50
+  ENDERMAN: 5
+  ENDERMITE: 2
+  EVOKER: 3
+  GHAST: 5
+  GIANT: 0
+  GUARDIAN: 3
+  HORSE: 1
+  HUSK: 2
+  ILLUSIONER: 2
+  IRON_GOLEM: 5
+  LLAMA: 1
+  MAGMA_CUBE: 4
+  MULE: 1
+  MUSHROOM_COW: 1
+  OCELOT: 2
+  PARROT: 1
+  PHANTOM: 3
+  PIG: 1
+  PIG_ZOMBIE: 3
+  PLAYER: 4
+  POLAR_BEAR: 3
+  PUFFERFISH: 1
+  RABBIT: 1
+  SALMON: 1
+  SHEEP: 1
+  SHULKER: 2
+  SILVERFISH: 2
+  SKELETON: 2
+  SKELETON_HORSE: 1
+  SLIME: 3
+  SNOWMAN: 1
+  SPIDER: 2
+  SQUID: 1
+  TROPICAL_FISH: 1
+  TURTLE: 1
+  VEX: 2
+  VILLAGER: 1
+  VINDICATOR: 2
+  WITCH: 3
+  WITHER: 25
+  WOLF: 3
+  ZOMBIE: 2
+  ZOMBIE_HORSE: 1
+  ZOMBIE_VILLAGER: 2

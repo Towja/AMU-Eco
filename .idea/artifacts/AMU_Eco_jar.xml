@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AMU-Eco:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AMU_Eco_jar</output-path>
+    <root id="archive" name="AMU-Eco.jar">
+      <element id="module-output" name="AMU-Eco" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java Development/spigot-1-12-2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java Development/Vault.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
